@@ -8,6 +8,6 @@ const wilders = [
   { name: "Anne", color: "#f6cf57" },
 ];
 
-for (let i = 0; i < wilders.length; i++) {
-  console.log(chalk.hex(wilders[i].color).bold(wilders[i].name));
+for (let student of wilders) {
+  console.log(chalk.hex(student.color).bold(student.name));
 }
