@@ -9,5 +9,5 @@ const wilders = [
 ];
 
 for (let student of wilders) {
-  console.log(chalk.hex(student.color).bold(student.name));
+  console.log(chalk.hex(student.color)(student.name));
 }
